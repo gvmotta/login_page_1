@@ -1,0 +1,128 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto';
+}
+
+body {
+    height: 100vh;
+    background: rgb(152,92,205);
+    background: linear-gradient(45deg, rgba(152,92,205,1) 0%, rgba(0,212,255,1) 100%);
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+a {
+    color: rgba(0,212,255,1) ;
+    margin-left: 3px;
+    text-decoration: none;
+}
+
+hr {
+    color: #C9C9C9;
+}
+
+.form-container {
+    background-color: #fff;
+    width: 450px;
+    margin: 30px auto;
+    padding: 30px;
+    border-radius: 6px;
+}
+
+.form-container h1 {
+    display: flex;
+    padding: 10px 0 30px;
+    justify-content: center;
+}
+
+.input{
+    position: relative;
+}
+
+.form-container .input-container .input label {
+    font-weight: 400;
+    display: flex;
+    font-size: 12px;
+}
+
+.form-container .input-container input {
+    border: none;
+    width: 100%;
+    height: 40px;
+    padding-left: 30px;
+}
+.form-container .input-container .input {
+    margin: 10px 0 5px;
+}
+
+.form-container .input-container .input input:focus {
+    outline: none;
+}
+
+.input-container svg {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 0;
+    top: calc(50% - 3px);
+    color: #C9C9C9;
+}
+
+.forgot-container {
+    font-size: 12px;
+    float: right;
+    margin-bottom: 20px;
+}
+
+.form-container .input-container .btn {
+    background: rgb(152,92,205);
+    background: linear-gradient(45deg, rgba(152,92,205,1) 0%, rgba(0,212,255,1) 100%);
+    border-radius: 20px;
+    color: white;
+    margin: 30px 0px;
+}
+
+.other-container p{
+    display: flex;
+    justify-content: center;
+    font-size: 13px;
+    color: black;
+}
+
+.other-container .social-container {
+    display: flex;
+    margin: 30px auto 0;
+    width: fit-content;
+}
+
+.other-container .social-container .social-media-container {
+    margin: 0 20px 30px ;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: #375c98;
+    color: white;
+    position: relative;
+}
+
+.other-container .social-container .social-media-container:nth-child(2) {
+    background-color: #4dadf2;
+} 
+
+.other-container .social-container .social-media-container:nth-child(3) {
+    background-color: #c54f33;
+} 
+
+.other-container .social-container .social-media-container svg {
+    position: absolute;
+    top: calc(50% - 12px);
+    left: calc(50% - 12px);
+}
+
+
+.other-container hr{
+    margin-bottom: 20px;
+}

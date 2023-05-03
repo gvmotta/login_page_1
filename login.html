@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acesso a conta</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/feather-icons"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="form-container">
+        <form action="#">
+            <h1>Login</h1>
+            <div class="input-container">
+                <div class="input">
+                    <label for="">Username</label>
+                    <input type="email" name="" id="" placeholder="Type your Username">
+                    <i data-feather="user"></i>
+                    <hr>
+                </div>
+                
+                <div class="input">
+                    <label for="">Password</label>
+                    <input type="Password" name="" id="" placeholder="Type your Password">
+                    <i data-feather="lock"></i>
+                    <hr>
+                </div>
+                <p class="forgot-container">Forgot Password?</p>
+
+
+                <input type="button" value="LOGIN" class="btn">
+            </div>
+            <div class="other-container">
+                <p class="">Or Sign Up Using</p>
+                <div class="social-container">
+                    <div class="social-media-container">
+                        <i data-feather="facebook"></i>
+                    </div>
+                    <div class="social-media-container">
+                        <i data-feather="twitter"></i>
+                    </div>
+                    <div class="social-media-container">
+                        <i data-feather="mail"></i>
+                    </div>
+                </div>
+                <hr>
+                <p class="">Don't you have an account? <a href="#">Sign up now</a></p>
+            </div>
+        </form>
+    </div>
+    <script>
+      feather.replace()
+    </script>
+</body>
+</html>
